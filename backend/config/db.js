@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const db =
-"mongodb://localhost:27017/";
+"mongodb://localhost:27017/bx";
 mongoose.set("strictQuery", true, "useNewUrlParser", true);
 
 const connectDB = async () => {
